@@ -1,8 +1,8 @@
 export const Phone = () => {
 	return (
-		<div>
+		<div className="input-field ">
 			<label htmlFor="">Telefon Numarası</label>
-			<input></input>
+			<input className="input-style"></input>
 		</div>
 	);
 };

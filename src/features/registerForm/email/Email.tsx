@@ -1,8 +1,8 @@
 export const Email = () => {
 	return (
-		<div>
+		<div className="input-field ">
 			<label htmlFor="">Email</label>
-			<input type="number" />
+			<input className="input-style" type="number" />
 		</div>
 	);
 };

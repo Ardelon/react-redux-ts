@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .input-field {
+        @apply flex flex-col m-1  
+    }
+    .input-style{
+        @apply bg-gray-100 border border-gray-300 text-gray-900 sm:text-sm rounded-lg pl-2 py-1 block w-72
+    }
+
+}

@@ -1,8 +1,8 @@
 export const Source = () => {
 	return (
-		<div>
+		<div className="input-field ">
 			<label htmlFor="">Kaynak</label>
-			<select>
+			<select className="input-style">
 				<option>Afetzede</option>
 				<option>Afetzede'nin ailesi</option>
 				<option>Afetzede'nin yakınları</option>

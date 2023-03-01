@@ -1,8 +1,8 @@
 export const ExplainDetails = () => {
 	return (
-		<div>
+		<div className="input-field ">
 			<label htmlFor="">Durumu Açıkla</label>
-			<input type="text" />
+			<input className="input-style" type="text" />
 		</div>
 	);
 };

@@ -1,8 +1,8 @@
 export const PersonCount = () => {
 	return (
-		<div>
+		<div className="input-field ">
 			<label htmlFor="">Kişi Sayısı</label>
-			<input type="number" />
+			<input className="input-style" type="number" />
 		</div>
 	);
 };
